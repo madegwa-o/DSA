@@ -1,0 +1,22 @@
+{
+    "sqltools.connections": [
+        {
+            "mysqlOptions": {
+                "authProtocol": "default",
+                "enableSsl": "Disabled"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 3306,
+            "driver": "MariaDB",
+            "group": "Development",
+            "name": "Dev MySQL",
+            "username": "dev",
+            "database": "mydb",
+            "askForPassword": true
+        }
+    ],
+    "files.associations": {
+        "algorithm": "cpp"
+    }
+}
