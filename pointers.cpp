@@ -1,18 +1,22 @@
 #include <iostream>
+using namespace std;
 
 int main(){
 
-    std::string name = "Oscar";
+   string name = "Oscar";
 
 
-    std::string *pName = &name;
+    string *pName = &name;
 
 
-    std::cout << name << std::endl;
-    std::cout << &name << std::endl;
-    std::cout << pName << std::endl;
-    std::cout << *pName << std::endl;
+    cout << name << endl;
+    cout << &name << endl;
+    cout << pName << endl;
+    cout << *pName << endl;
+
+   
 
 
     return 0;
 }
+
